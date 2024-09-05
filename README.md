@@ -1,5 +1,5 @@
-[![GitHub Actions CI Status](https://github.com/APHA-CSU/genappdataanalysis/actions/workflows/ci.yml/badge.svg)](https://github.com/APHA-CSU/genappdataanalysis/actions/workflows/ci.yml)
-[![GitHub Actions Linting Status](https://github.com/APHA-CSU/genappdataanalysis/actions/workflows/linting.yml/badge.svg)](https://github.com/APHA-CSU/genappdataanalysis/actions/workflows/linting.yml)
+[![GitHub Actions CI Status](https://github.com/APHA-CSU/GenAPP-analysispipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/APHA-CSU/GenAPP-analysispipeline/actions/workflows/ci.yml)
+[![GitHub Actions Linting Status](https://github.com/APHA-CSU/GenAPP-analysispipeline/actions/workflows/linting.yml/badge.svg)](https://github.com/APHA-CSU/GenAPP-analysispipeline/actions/workflows/linting.yml)
 <!-- [![Cite with Zenodo](http://img.shields.io/badge/DOI-10.5281/zenodo.XXXXXXX-1073c8?labelColor=000000)](https://doi.org/10.5281/zenodo.XXXXXXX) -->
 [![nf-test](https://img.shields.io/badge/unit_tests-nf--test-337ab7.svg)](https://www.nf-test.com)
 
@@ -9,7 +9,7 @@
 
 ## Introduction
 
-**APHA-CSU/genappdataanalysis** is a bioinformatics pipeline for processing high-throughput sequence data generated whilst investigating animal and plant pathogens.
+**APHA-CSU/GenAPP-analysispipeline** is a bioinformatics pipeline for processing high-throughput sequence data generated whilst investigating animal and plant pathogens.
 
 <!-- TODO nf-core:
    Complete this sentence with a 2-3 sentence summary of what types of data the pipeline ingests, a brief overview of the
@@ -50,7 +50,7 @@ Now, you can run the pipeline using:
 <!-- TODO nf-core: update the following command to include all required parameters for a minimal example -->
 
 ```bash
-nextflow run APHA-CSU/genappdataanalysis \
+nextflow run APHA-CSU/GenAPP-analysispipeline \
    -profile <docker/singularity/.../institute> \
    --input samplesheet.csv \
    --outdir <OUTDIR>
@@ -62,7 +62,7 @@ nextflow run APHA-CSU/genappdataanalysis \
 
 ## Credits
 
-APHA-CSU/genappdataanalysis was originally written by Richard Ellis.
+APHA-CSU/GenAPP-analysispipeline was originally written by Richard Ellis.
 
 <!-- We thank the following people for their extensive assistance in the development of this pipeline:
 
