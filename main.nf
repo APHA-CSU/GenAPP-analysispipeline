@@ -1,9 +1,9 @@
 #!/usr/bin/env nextflow
 /*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    APHA-CSU/genappdataanalysis
+    APHA-CSU/GenAPP-analysispipeline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Github : https://github.com/APHA-CSU/genappdataanalysis
+    Github : https://github.com/APHA-CSU/GenAPP-analysispipeline
 ----------------------------------------------------------------------------------------
 */
 
