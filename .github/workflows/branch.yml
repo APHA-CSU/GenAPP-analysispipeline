@@ -1,6 +1,6 @@
 name: nf-core branch protection
 # This workflow is triggered on PRs to main branch on the repository
-# It fails when someone tries to make a PR against the nf-core `main` branch instead of `develop`
+# It fails when someone tries to make a PR against the nf-core `main` branch instead of `development`
 on:
   pull_request_target:
     branches: [main]
@@ -25,7 +25,7 @@ jobs:
             ## This PR is against the `main` branch :x:
 
             * Do not close this PR
-            * Click _Edit_ and change the `base` to `develop`
+            * Click _Edit_ and change the `base` to `development`
             * This CI test will remain failed until you push a new commit
 
             ---

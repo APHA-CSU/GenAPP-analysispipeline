@@ -3,7 +3,7 @@ name: nf-core CI
 on:
   push:
     branches:
-      - develop
+      - development
       - dev
   pull_request:
   release:
