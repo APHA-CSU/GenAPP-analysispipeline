@@ -11,8 +11,8 @@ process MULTIQC {
     path(multiqc_config)
     path(extra_multiqc_config)
     path(multiqc_logo)
-    //path(replace_names)
-    //path(sample_names)
+    path(replace_names)
+    path(sample_names)
 
     output:
     path "*multiqc_report.html", emit: report
