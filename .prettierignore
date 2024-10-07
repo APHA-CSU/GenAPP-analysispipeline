@@ -10,3 +10,7 @@ testing/
 testing*
 *.pyc
 bin/
+nextflow_schema.json
+.nf-core.yml
+README.md
+.github/ISSUE_TEMPLATE/bug_report.yml

@@ -15,6 +15,7 @@ lint:
   - docs/images/nf-core-genappdataanalysis_logo_light.png
   - docs/images/nf-core-genappdataanalysis_logo_dark.png
   - .github/ISSUE_TEMPLATE/bug_report.yml
+  - .github/workflows/branch.yml
   multiqc_config:
   - report_comment
   nextflow_config:
